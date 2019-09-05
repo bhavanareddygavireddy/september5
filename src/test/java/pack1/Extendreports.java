@@ -26,7 +26,8 @@ public class Extendreports {
 
 		ExtentReports report = new ExtentReports("D:\\workspace3\\ExtendReport\\target\\extendrports\\reports.html");
 		ExtentTest test = report.startTest("test");
-
+//added into github
+		
 		WebDriverManager.chromedriver().setup();
 		test.log(LogStatus.INFO, "browser driver has been set");
 		WebDriver driver = new ChromeDriver();
